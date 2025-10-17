@@ -44,15 +44,6 @@ uv sync
 uv run jupyter notebook
 ```
 
-## Kaggle API Setup
-Docs: https://www.kaggle.com/docs/api#authentication
-
-This project uses the Kaggle API to download datasets. To set up authentication:
-
-1. Go to your Kaggle account settings: https://www.kaggle.com/settings
-2. Click "Create New Token" under the API section
-3. Move the downloaded `kaggle.json` to `~/.kaggle/kaggle.json`:
-
 ## Workflow
 
 1. **Data Acquisition**: Download dataset via Kaggle API in Jupyter notebook
