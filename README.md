@@ -1,25 +1,33 @@
-# Insurance Claims Dashboard
+# Insurance Claims Risk Analysis
 
-A data analysis project using insurance claim data to analyze performance trends and visualize insights that could help identify risk or opportunity areas.
+Analysis of 58K automotive insurance policies to identify risk patterns and support data-driven pricing strategies.
 
-## Goal
+## Dashboard
 
-Use insurance claim data to analyze performance trends and visualize insights that could help identify risk or opportunity areas.
+![Insurance Claims Dashboard](power-bi-screenshot.png)
+
+## Key Findings
+
+- **New vehicles are 2x riskier** - 10.6% claim rate vs 4-5% for older vehicles
+- **Age matters** - Drivers 56+ have 32% higher claims than drivers 35-40
+- **Regional variation** - Claim rates vary 3x across regions
+- **Risk segmentation works** - High-risk profiles show 62% higher claim rates
 
 ## Stack
 
 - **Python**: Data Analysis and Cleaning (pandas, numpy)
 - **Jupyter Notebooks**: Exploratory Data Analysis
 - **Power BI**: Data Visualization and Dashboard
-- **Kaggle API**: Dataset sourcing and version control
+- **Kaggle API**: Dataset sourcing
 - **Dataset**: https://www.kaggle.com/datasets/litvinenko630/insurance-claims
 
-## Scope
+## Analyses
 
-- Clean and explore 5k rows of data
-- Perform 3-5 analyses (e.g., average claim cost by region, claim type frequency, customer age vs cost)
-- Build a Power BI dashboard with filters and visuals
-- Summarize 2-3 key findings that "tell a story" (e.g., "Older policyholders have higher claim severity in urban areas")
+1. Customer age groups vs claim rates
+2. Regional risk variation analysis
+3. Safety features impact assessment
+4. Vehicle age vs claim likelihood
+5. Customer risk segmentation model
 
 ## Project Structure
 
@@ -44,14 +52,6 @@ uv sync
 uv run jupyter notebook
 ```
 
-## Workflow
-
-1. **Data Acquisition**: Download dataset via Kaggle API in Jupyter notebook
-2. **Exploration & Cleaning**: Analyze and prepare data using pandas
-3. **Analysis**: Perform 3-5 targeted analyses on key metrics
-4. **Visualization**: Export cleaned data and build Power BI dashboard
-5. **Insights**: Document 2-3 key findings with narrative
-
 ## Dataset
 
-We found our dataset on [Kaggle](https://www.kaggle.com/) by searching for "insurance claims dataset" in our browser. It provides a realistic and well-structured sample of insurance claim records suitable for analysis and visualization. The dataset contains over 5,000 entries, offering enough data to uncover meaningful trends while remaining lightweight and easy to work with.
+58,592 automotive insurance policies with 41 features including customer demographics, vehicle specifications, and claim status. Source: [Kaggle Insurance Claims Dataset](https://www.kaggle.com/datasets/litvinenko630/insurance-claims)
