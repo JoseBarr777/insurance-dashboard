@@ -1,6 +1,6 @@
 # Insurance Claims Risk Analysis
 
-Analysis of 58K automotive insurance policies to identify risk patterns and support data-driven pricing strategies.
+Analysis of 58,000+ automotive insurance policies to identify claim risk drivers and support pricing, underwriting, and risk segmentation decisions.
 
 ## Dashboard
 
